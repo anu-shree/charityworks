@@ -1,6 +1,6 @@
 (function ($)
   { "use strict"
-  
+
 
 /* 1. Proloder */
     $(window).on('load', function () {
@@ -29,7 +29,7 @@
       }, 800);
       return false;
     });
-  
+
 
 /* 3. slick Nav */
 // mobile_menu
@@ -44,7 +44,7 @@
 
 
 
-    
+
 /* 4. MainSlider-1 */
     // h1-hero-active
     function mainSlider() {
@@ -62,7 +62,7 @@
         autoplaySpeed: 4000,
         dots: false,
         fade: true,
-        arrows: false, 
+        arrows: false,
         prevArrow: '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
         nextArrow: '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
         responsive: [{
@@ -173,7 +173,7 @@ testimonial.slick({
 /* 10. WOW active */
     new WOW().init();
 
-// 11. ---- Mailchimp js --------//  
+// 11. ---- Mailchimp js --------//
     function mailChimp() {
       $('#mc_embed_signup').find('form').ajaxChimp();
     }
